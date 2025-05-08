@@ -10,10 +10,6 @@ Challenge:
    screenshots on the slide.
 */  
 
-header{
-    display: flex;
-    justify-content: start;
-}
 
 nav {
     
@@ -22,8 +18,9 @@ nav {
     color: whitesmoke;
 }
 
-nav ul{
-    list-style:none;
+ul{
+    display: flex;
+    list-style-type:none;
     padding: 25px;
     margin: 0px;
     align-items: center;
@@ -31,9 +28,8 @@ nav ul{
     
 }
 
-nav li{
-    width: 18px;
-    display: inline;
+li{
+    cursor: pointer;
 }
 
 .logo{
@@ -41,11 +37,13 @@ nav li{
     font-weight: 700;
     
 }
-
-
 .icon{
     width: 25px;
-    height: 100%;
+    
+}
+
+.menu-icon{
+    margin-left: auto;
 }
 
 h1{
